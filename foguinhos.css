@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	background: radial-gradient(circle, #020111, #000000);
+	overflow: hidden;
+	height: 100vh;
+	cursor: pointer;
+	font-family: "Arial", sans-serif;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/* Add large instruction text */
+.instructions {
+	font-size: 2rem;
+	font-weight: bold;
+	z-index: 10;
+	color: #ff9671;
+	text-shadow: 1px -1px 7px rgb(142 142 142 / 80%);
+}
+
+.projectile {
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background: white;
+	border-radius: 50%;
+	box-shadow: 0 0 20px rgba(255, 255, 255, 0.8),
+		0 0 30px rgba(255, 255, 255, 0.6), 0 0 40px rgba(255, 255, 255, 0.4);
+}
+
+.particule {
+	position: absolute;
+	font-size: 2rem;
+	font-family: "Cursive", serif;
+	font-weight: bold;
+	color: white;
+	transform: scale(0);
+	opacity: 0;
+}
+
+.sparkle {
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: white;
+	transform: scale(0);
+	opacity: 0;
+}
+
+/*audio */
+
+/* Body dengan tema gelap */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Kotak pemutar musik transparan di kanan bawah */
+.player {
+    position: fixed; /* Tetap di layar saat scrolling */
+    bottom: 20px;    /* Jarak dari bawah */
+    right: 20px;     /* Jarak dari kanan */
+    padding: 15px;
+    background-color: rgba(31, 31, 31, 0.8); /* Transparansi */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+    text-align: center;
+}
+
+/* Heading kecil dan transparan */
+h1 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Elemen audio lebih kecil */
+audio {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Tombol kecil dengan transparansi */
+.buttons button {
+    background-color: rgba(51, 51, 51, 0.7); /* Transparansi */
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 3px;
+    font-size: 12px; /* Ukuran tombol lebih kecil */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Hover tombol */
+.buttons button:hover {
+    background-color: rgba(68, 68, 68, 0.8);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+/* Saat tombol ditekan */
+.buttons button:active {
+    transform: scale(0.95);
+}
+
+/* Tombol aktif (fokus) */
+.buttons button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
