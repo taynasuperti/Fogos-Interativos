@@ -13,7 +13,7 @@ body {
 	flex-direction: column;
 }
 
-/* Add large instruction text */
+/* Adicionar texto grande de instrução */
 .instructions {
 	font-size: 2rem;
 	font-weight: bold;
@@ -52,9 +52,9 @@ body {
 	opacity: 0;
 }
 
-/*audio */
+/* Áudio */
 
-/* Body dengan tema gelap */
+/* Corpo com tema escuro */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -64,13 +64,13 @@ body {
     padding: 0;
 }
 
-/* Kotak pemutar musik transparan di kanan bawah */
+/* Caixa do player de música transparente no canto inferior direito */
 .player {
-    position: fixed; /* Tetap di layar saat scrolling */
-    bottom: 20px;    /* Jarak dari bawah */
-    right: 20px;     /* Jarak dari kanan */
+    position: fixed; /* Fixa na tela durante o scroll */
+    bottom: 20px;    /* Distância do fundo */
+    right: 20px;     /* Distância da direita */
     padding: 15px;
-    background-color: rgba(31, 31, 31, 0.8); /* Transparansi */
+    background-color: rgba(31, 31, 31, 0.8); /* Transparência */
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -78,44 +78,44 @@ body {
     text-align: center;
 }
 
-/* Heading kecil dan transparan */
+/* Cabeçalho pequeno e transparente */
 h1 {
     margin-bottom: 10px;
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
 }
 
-/* Elemen audio lebih kecil */
+/* Elemento de áudio menor */
 audio {
     width: 100%;
     margin-bottom: 10px;
 }
 
-/* Tombol kecil dengan transparansi */
+/* Botões pequenos e transparentes */
 .buttons button {
-    background-color: rgba(51, 51, 51, 0.7); /* Transparansi */
+    background-color: rgba(51, 51, 51, 0.7); /* Transparência */
     color: #ffffff;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 5px;
     padding: 5px 10px;
     margin: 3px;
-    font-size: 12px; /* Ukuran tombol lebih kecil */
+    font-size: 12px; /* Tamanho menor para os botões */
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
 }
 
-/* Hover tombol */
+/* Efeito hover nos botões */
 .buttons button:hover {
     background-color: rgba(68, 68, 68, 0.8);
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
 }
 
-/* Saat tombol ditekan */
+/* Quando o botão é pressionado */
 .buttons button:active {
     transform: scale(0.95);
 }
 
-/* Tombol aktif (fokus) */
+/* Botão ativo (com foco) */
 .buttons button:focus {
     outline: none;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
